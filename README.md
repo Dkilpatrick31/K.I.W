@@ -10,18 +10,19 @@ Critiquing Class Names for Sections and Articles
 - Main
   - Ad - Done | ad-01 |
   - Radio - +++ COME BACK TO THIS +++
-  - Top Stories
+  - Top Stories - Done | section top-stories |
     - Article
     - Article
     - Article
     - Article
-  - News & Culture(aside)
+  - News & Culture(aside) - Done | section news-culture |
     - Article
     - Article
     - Article
     - Article
-  - Download App
-  - Spotlight
+  - Download App - Done | section download-app |
+  - Spotlight - Done | section spotlight |
+    - Div - Done | spotlight-title |
     - Article
     - Article
     - Article
@@ -30,48 +31,52 @@ Critiquing Class Names for Sections and Articles
     - Article
   - Ad(aside)
   - Ad(aside)
-  - The Latest
+  - The Latest - Done | section the-latest |
+    - Div - Done | the-latest-title |
     - Article
     - Article
     - Article
     - Article
     - Article
-  - Newsletter
-  - Contributors & Most Popular
-    - Contributors
+  - Newsletter - Done | section newsletter |
+  - Contributors & Most Popular -
+    - Contributors(div) - Done | contributors-title |
       - Article
       - Article
       - Article
       - Article
-    - Most Popular(aside)
+    - Most Popular(aside) - Done | most-popular-title |
       - Article
       - Article
       - Article
       - Article
-  - Video
+  - Video - Done | section video |
+    - Div - Done | video-title |
     - Main Video
     - Other Videos(aside)
       - Article
       - Article
       - Article
-  - Daily Cartoon
+  - Daily Cartoon - Done | section daily-cartoon |
+    - Div - Done | daily-cartoon-title |
     - The Cartoon Itself
       - Subsection
     - Ad(aside)
-  - Photo Booth
+  - Photo Booth - Done | section photo-booth |
     - Article
-  - The Magazine
-    - Article
-    - Article
+  - The Magazine - Done | section the-magazine |
     - Article
     - Article
-  - From this Week's Issue
+    - Article
+    - Article
+  - From this Week's Issue - Done | section from-this-weeks-issue |
     - Article
     - Article
     - Article
     - Article
   - Ad(aside)
-  - Our Columnists
+  - Our Columnists - Done | section our-columnists-main |
+    - Div - Done | our-columnists-title |
     - subsection: our columnists
       - Article
       - Article
@@ -79,17 +84,18 @@ Critiquing Class Names for Sections and Articles
       - Article
       - Article
       - Article
-  - Podcasts
-    - Podcast player
+  - Podcasts - Done | section podcasts |
+    - Div - Done | podcasts-title |
+    - Podcast player - Done | podcasts-player |
     - Most Recent Podcasts
       - Article
-  - Previous Coverage
+  - Previous Coverage - Done | section previous-coverage |
     - Subsection: Previous Coverage Articles
       - Article
       - Article
       - Article
       - Article
   - Ad
-  - Black bar
+  - Black bar - Done | section black-bar |
 - /Main
-- Footer
+- Footer - Done | section footer | (ask about the name convention for this section. Since there already is a Footer thats containing this section.)
