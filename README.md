@@ -8,8 +8,8 @@ Critiquing Class Names for Sections and Articles
   - Nav - Done | header-nav |
   - Bottom Nav - done | header-bottom-nav |
 - Main
-  - Ad -
-  - Radio
+  - Ad - Done | ad-01 |
+  - Radio - +++ COME BACK TO THIS +++
   - Top Stories
     - Article
     - Article
