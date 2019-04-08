@@ -11,101 +11,123 @@ Critiquing Class Names for Sections and Articles
   - Main
     - Ad - Done | wrapper-ad-01 |
       - Div - Done | ad-01 |
-    - Radio - Done | section radio |
-    - Top Stories - Done | section top-stories |
-      - Article
-      - Article
-      - Article
-      - Article
-    - News & Culture(aside) - Done | section news-culture |
-      - Article
-      - Article
-      - Article
-      - Article
-    - Download App - Done | section download-app |
-    - Spotlight - Done | section spotlight |
+    - Radio - Done | radio |
+    - Top Stories - Done | top-stories |
+      - Article - Done | top-stories-01 |
+      - Article - Done | top-stories-02 |
+      - Article - Done | top-stories-03 |
+      - Article - Done | top-stories-04 |
+    - News & Culture(aside) - Done | news-culture |
+      - Div - Done | news-culture-title |
+      - Article - Done | news-culture-01 |
+      - Article - Done | news-culture-02 |
+      - Article - Done | news-culture-03 |
+      - Article - Done | news-culture-04 |
+    - Download App - Done | download-app |
+    - Spotlight - Done | spotlight |
       - Div - Done | spotlight-title |
-      - Article
-      - Article
-      - Article
-      - Article
-      - Article
-      - Article
+      - Article - Done | spotlight-01 |
+      - Article - Done | spotlight-02 |
+      - Article - Done | spotlight-03 |
+      - Article - Done | spotlight-04 |
+      - Article - Done | spotlight-05 |
+      - Article - Done | spotlight-06 |
     - Ad(aside) - Done | wrapper-ad-02 |
       - Div - Done | ad-02
     - Ad(aside) - Done | wrapper-ad-03 |
       - Div - Done | ad-03 |
-    - The Latest - Done | section the-latest |
+    - The Latest - Done | the-latest |
       - Div - Done | the-latest-title |
-      - Article
-      - Article
-      - Article
-      - Article
-      - Article
-    - Newsletter - Done | section newsletter |
-    - Contributors & Most Popular - Done | section contributors-most-popular |
-      - Contributors(div) - Done | contributors-title |
-        - Article
-        - Article
-        - Article
-        - Article
-      - Most Popular(aside) - Done | most-popular-title |
-        - Article
-        - Article
-        - Article
-        - Article
-    - Video - Done | section video |
+      - Article - Done | the-latest-01 |
+      - Article - Done | the-latest-02 |
+      - Article - Done | the-latest-03 |
+      - Article - Done | the-latest-04 |
+      - Article - Done | the-latest-05 |
+    - Newsletter - Done | newsletter |
+    - Contributors & Most Popular - Done | contributors-most-popular |
+      - Contributors - Done | contributors |
+        - Div - Done | contributors-title |
+        - Article - Done | contributors-01 |
+        - Article - Done | contributors-02 |
+        - Article - Done | contributors-03 |
+        - Article - Done | contributors-04 |
+      - Most Popular
+      - Most Popular(aside) - Done | most-popular |
+        - Div - Done | most-popular-title |
+        - Article - Done | most-popular-01 |
+        - Article - Done | most-popular-02 |
+        - Article - Done | most-popular-03 |
+        - Article - Done | most-popular-04 |
+    - Video - Done | video |
       - Div - Done | video-title |
-      - Main Video
+      - Main Video - Done | main-video video |
       - Other Videos(aside)
-        - Article
-        - Article
-        - Article
-    - Daily Cartoon - Done | section daily-cartoon |
+        - Article - Done | other-video-01 video |
+        - Article - Done | other-video-02 video |
+        - Article - Done | other-video-03 video |
+    - Daily Cartoon - Done | daily-cartoon |
       - Div - Done | daily-cartoon-title |
-      - The Cartoon Itself
-        - Subsection
+      - The Cartoon Itself - Done | wrapper-daily-cartoon |
       - Ad(aside) - Done | wrapper-ad-04 |
         - Div - Done | ad-04 |
-    - Photo Booth - Done | section photo-booth |
-      - Article
-    - The Magazine - Done | section the-magazine |
-      - Article
-      - Article
-      - Article
-      - Article
-    - From this Week's Issue - Done | section from-this-weeks-issue |
+    - Photo Booth - Done | photo-booth |
+      - Article - Done | photo-booth-01 |
+    - The Magazine - Done | the-magazine |
+      - Article - Done | the-magazine-01 |
+      - Article - Done | the-magazine-02 |
+      - Article - Done | the-magazine-03 |
+      - Article - Done | the-magazine-04 |
+    - From this Week's Issue - Done | from-this-weeks-issue |
       - Div - Done | from-this-weeks-issue-title |
       - Section - Done | wrapper-from-this-weeks-issue |
-        - Article
-        - Article
-        - Article
-        - Article
+        - Article - Done | from-this-weeks-issue-01 |
+        - Article - Done | from-this-weeks-issue-02 |
+        - Article - Done | from-this-weeks-issue-03 |
+        - Article - Done | from-this-weeks-issue-04 |
     - Ad(aside) - Done | wrapper-ad-05 |
       - Div - Done | ad-05 |
-    - Our Columnists - Done | section our-columnists-main |
+    - Our Columnists - Done | our-columnists-main |
       - Div - Done | our-columnists-title |
-      - subsection: our columnists
-        - Article
-        - Article
-        - Article
-        - Article
-        - Article
-        - Article
-    - Podcasts - Done | section podcasts |
+      - Our Columnists - Done | wrapper-our-columnists |
+        - Article - Done | our-columnists-01 |
+        - Article - Done | our-columnists-02 |
+        - Article - Done | our-columnists-03 |
+        - Article - Done | our-columnists-04 |
+        - Article - Done | our-columnists-05 |
+        - Article - Done | our-columnists-06 |
+    - Podcasts - Done | podcasts |
       - Div - Done | podcasts-title |
       - Podcast player - Done | podcasts-player |
       - Most Recent Podcasts - Done | wrapper-most-recent-podcasts |
-        - Article
-    - Previous Coverage - Done | section previous-coverage |
-      - Subsection: Previous Coverage Articles
-        - Article
-        - Article
-        - Article
-        - Article
+        - Article - Done | most-recent-podcasts-01 |
+    - Previous Coverage - Done | our-previous-coverage |
+      - Our Previous Coverage - Done | wrapper-our-previous-coverage |
+        - Article - Done | our-previous-coverage-01 |
+        - Article - Done | our-previous-coverage-02 |
+        - Article - Done | our-previous-coverage-03 |
+        - Article - Done | our-previous-coverage-04 |
     - Ad - Done | wrapper-ad-06 |
       - Div - Done | ad-06 |
-    - Black bar - Done | section black-bar |
+    - Black bar - Done | black-bar |
   - /Main
-  - Footer - Done | section footer | (ask about the name convention for this section. Since there already is a Footer thats containing this section.)
+  - Footer
+    - Footer Categories - Done | footer-categories |
+      - Article - Done | footer-news-politics |
+      - Article - Done | footer-culture |
+      - Article - Done | footer-business-science-tech |
+      - Article - Done | footer-humor |
+      - Article - Done | footer-cartoons |
+      - Article - Done | footer-books-fiction |
+      - Article - Done | footer-magazine |
+      - Article - Done | footer-photography |
+      - Article - Done | footer-videos |
+      - Article - Done | footer-podcasts |
+      - Article - Done | footer-more |
+      - Article - Done | footer-newsletters |
+      - Article - Done | footer-about-us |
+    - Follow Us & Copyright - Done | wrapper-follow-us-copyright |
+      - Div - Done | follow-us |
+      - Div - Done | copyright |
 - /End | Global Wrapper |
+
+(ask about the name convention for this section. Since there already is a Footer thats containing this section.)
