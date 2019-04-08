@@ -2,100 +2,110 @@
 The Austin Journal. A mockup of "The New Yorker" website
 
 Critiquing Class Names for Sections and Articles
-- Header - Done | header-top-wrapper |
-  - Ad - Done | header-ad |
-  - Title - Done | header-title |
-  - Nav - Done | header-nav |
-  - Bottom Nav - done | header-bottom-nav |
-- Main
-  - Ad - Done | ad-01 |
-  - Radio - +++ COME BACK TO THIS +++
-  - Top Stories - Done | section top-stories |
-    - Article
-    - Article
-    - Article
-    - Article
-  - News & Culture(aside) - Done | section news-culture |
-    - Article
-    - Article
-    - Article
-    - Article
-  - Download App - Done | section download-app |
-  - Spotlight - Done | section spotlight |
-    - Div - Done | spotlight-title |
-    - Article
-    - Article
-    - Article
-    - Article
-    - Article
-    - Article
-  - Ad(aside)
-  - Ad(aside)
-  - The Latest - Done | section the-latest |
-    - Div - Done | the-latest-title |
-    - Article
-    - Article
-    - Article
-    - Article
-    - Article
-  - Newsletter - Done | section newsletter |
-  - Contributors & Most Popular -
-    - Contributors(div) - Done | contributors-title |
+- Wrapper - Done | global-wrapper |
+  - Header - Done | header-top-wrapper |
+    - Ad - Done | header-ad |
+    - Title - Done | header-title |
+    - Nav - Done | header-nav |
+    - Bottom Nav - Done | header-bottom-nav |
+  - Main
+    - Ad - Done | wrapper-ad-01 |
+      - Div - Done | ad-01 |
+    - Radio - Done | section radio |
+    - Top Stories - Done | section top-stories |
       - Article
       - Article
       - Article
       - Article
-    - Most Popular(aside) - Done | most-popular-title |
+    - News & Culture(aside) - Done | section news-culture |
       - Article
       - Article
       - Article
       - Article
-  - Video - Done | section video |
-    - Div - Done | video-title |
-    - Main Video
-    - Other Videos(aside)
-      - Article
-      - Article
-      - Article
-  - Daily Cartoon - Done | section daily-cartoon |
-    - Div - Done | daily-cartoon-title |
-    - The Cartoon Itself
-      - Subsection
-    - Ad(aside)
-  - Photo Booth - Done | section photo-booth |
-    - Article
-  - The Magazine - Done | section the-magazine |
-    - Article
-    - Article
-    - Article
-    - Article
-  - From this Week's Issue - Done | section from-this-weeks-issue |
-    - Article
-    - Article
-    - Article
-    - Article
-  - Ad(aside)
-  - Our Columnists - Done | section our-columnists-main |
-    - Div - Done | our-columnists-title |
-    - subsection: our columnists
+    - Download App - Done | section download-app |
+    - Spotlight - Done | section spotlight |
+      - Div - Done | spotlight-title |
       - Article
       - Article
       - Article
       - Article
       - Article
       - Article
-  - Podcasts - Done | section podcasts |
-    - Div - Done | podcasts-title |
-    - Podcast player - Done | podcasts-player |
-    - Most Recent Podcasts
-      - Article
-  - Previous Coverage - Done | section previous-coverage |
-    - Subsection: Previous Coverage Articles
-      - Article
+    - Ad(aside) - Done | wrapper-ad-02 |
+      - Div - Done | ad-02
+    - Ad(aside) - Done | wrapper-ad-03 |
+      - Div - Done | ad-03 |
+    - The Latest - Done | section the-latest |
+      - Div - Done | the-latest-title |
       - Article
       - Article
       - Article
-  - Ad
-  - Black bar - Done | section black-bar |
-- /Main
-- Footer - Done | section footer | (ask about the name convention for this section. Since there already is a Footer thats containing this section.)
+      - Article
+      - Article
+    - Newsletter - Done | section newsletter |
+    - Contributors & Most Popular - Done | section contributors-most-popular |
+      - Contributors(div) - Done | contributors-title |
+        - Article
+        - Article
+        - Article
+        - Article
+      - Most Popular(aside) - Done | most-popular-title |
+        - Article
+        - Article
+        - Article
+        - Article
+    - Video - Done | section video |
+      - Div - Done | video-title |
+      - Main Video
+      - Other Videos(aside)
+        - Article
+        - Article
+        - Article
+    - Daily Cartoon - Done | section daily-cartoon |
+      - Div - Done | daily-cartoon-title |
+      - The Cartoon Itself
+        - Subsection
+      - Ad(aside) - Done | wrapper-ad-04 |
+        - Div - Done | ad-04 |
+    - Photo Booth - Done | section photo-booth |
+      - Article
+    - The Magazine - Done | section the-magazine |
+      - Article
+      - Article
+      - Article
+      - Article
+    - From this Week's Issue - Done | section from-this-weeks-issue |
+      - Div - Done | from-this-weeks-issue-title |
+      - Section - Done | wrapper-from-this-weeks-issue |
+        - Article
+        - Article
+        - Article
+        - Article
+    - Ad(aside) - Done | wrapper-ad-05 |
+      - Div - Done | ad-05 |
+    - Our Columnists - Done | section our-columnists-main |
+      - Div - Done | our-columnists-title |
+      - subsection: our columnists
+        - Article
+        - Article
+        - Article
+        - Article
+        - Article
+        - Article
+    - Podcasts - Done | section podcasts |
+      - Div - Done | podcasts-title |
+      - Podcast player - Done | podcasts-player |
+      - Most Recent Podcasts - Done | wrapper-most-recent-podcasts |
+        - Article
+    - Previous Coverage - Done | section previous-coverage |
+      - Subsection: Previous Coverage Articles
+        - Article
+        - Article
+        - Article
+        - Article
+    - Ad - Done | wrapper-ad-06 |
+      - Div - Done | ad-06 |
+    - Black bar - Done | section black-bar |
+  - /Main
+  - Footer - Done | section footer | (ask about the name convention for this section. Since there already is a Footer thats containing this section.)
+- /End | Global Wrapper |
