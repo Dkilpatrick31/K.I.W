@@ -12,17 +12,18 @@ Critiquing Class Names for Sections and Articles
     - Ad - Done | wrapper-ad-01 |
       - Div - Done | ad-01 |
     - Radio - Done | radio |
-    - Top Stories - Done | top-stories |
-      - Article - Done | top-stories-01 |
-      - Article - Done | top-stories-02 |
-      - Article - Done | top-stories-03 |
-      - Article - Done | top-stories-04 |
-    - News & Culture(aside) - Done | news-culture |
-      - Div - Done | news-culture-title |
-      - Article - Done | news-culture-01 |
-      - Article - Done | news-culture-02 |
-      - Article - Done | news-culture-03 |
-      - Article - Done | news-culture-04 |
+    - Div - Done | wrapper-top-stories |
+      - Top Stories - Done | top-stories |
+        - Article - Done | top-stories-01 |
+        - Article - Done | top-stories-02 |
+        - Article - Done | top-stories-03 |
+        - Article - Done | top-stories-04 |
+      - News & Culture(aside) - Done | news-culture |
+        - Div - Done | news-culture-title |
+        - Article - Done | news-culture-01 |
+        - Article - Done | news-culture-02 |
+        - Article - Done | news-culture-03 |
+        - Article - Done | news-culture-04 |
     - Download App - Done | download-app |
     - Spotlight - Done | spotlight |
       - Div - Done | spotlight-title |
