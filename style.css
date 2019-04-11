@@ -1,13 +1,53 @@
+/* ========== Universal Styling ========== */
+
+* {
+box-sizing: border-box;
+}
+
+/* ========== Base Styling ========== */
+
+/* a {
+  padding: 0 auto;
+} */
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 30px;
+}
 img {
   width: 230px;
   height: 150px;
 }
 
-.header-ad,
-.header-title,
-.header-nav {
-  /* border: 2px solid red; */
+nav {
+  margin: auto;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 5px;
+  line-height: 1.15;
 }
+
+li {
+  padding: 15px;
+  /* border: 2px solid blue; */
+}
+
+hr {
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ========== Start of Header ========== */
 
 .header-top-wrapper {
   display: grid;
@@ -33,49 +73,19 @@ img {
   text-align: center;
 }
 
-
-h1 {
-  font-size: 70px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
 .header-title-the {
   margin-top:30px;
-
-
 }
 
 .header-title-austineer {
   margin-bottom:0 auto;
   padding-bottom: auto;
-
-
-}
-
-
-nav {
-  margin: auto;
-  font-size: 14px;
-  font-family: 'Roboto Condensed', sans-serif;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-bottom: 5px;
-  line-height: 1.15;
 }
 
 .header-nav {
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 175px;
   list-style: none;
-}
-
-li {
-  padding: 15px;
-  /* border: 2px solid blue; */
 }
 
 .wrapper-header-bottom-nav {
@@ -100,15 +110,16 @@ li {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-hr {
-  width: 90%;
+/* ========== End of Header ========== */
+
+
+
+/* ========== Start of Main ========== */
+.container {
+  padding: 0 1em 0 1em;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
+/* Ad - 01 */
 .div-ad-01 {
   display: flex;
   justify-content: center;
@@ -126,6 +137,8 @@ a {
   margin-right: 20px;
 }
 
+
+/* Radio Section */
 .radio {
   display: flex;
   justify-content: center;
@@ -134,7 +147,66 @@ a {
   padding: 5px;
 }
 
+
+/* TOP Stories Section */
 .top-stories {
   margin-top: 20px;
   text-align: center;
+}
+
+.top-stories-01 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto auto auto;
+  padding: 0 15px 0 15px;
+}
+
+.top-stories-01-category,
+.top-stories-01-title,
+.top-stories-01-author {
+  text-align: left;
+}
+
+.top-stories-01-img {
+  width: 323px;
+  height: 215px;
+}
+
+.top-stories-01-category {
+  margin: 5px 0 5px 0;
+}
+
+.top-stories-01-title {
+  font-family: 'Playfair Display SC', serif;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* ========== End of Main ========== */
+
+
+
+/* ========== Start of Footer ========== */
+
+
+
+/* ========== End of Footer ========== */
+
+
+
+
+/* ========== Media Queries ========== */
+
+/* iphone 6/7/8 */
+@media (min-width: 667px) {
+  .main-container{
+    width: 70%;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
+  .radio {
+
+  }
 }
