@@ -27,7 +27,6 @@ img {
 .header-wrapper {
   line-height: 5px;
   font-family: 'Manuale', serif;
-
 }
 
 .header-title {
@@ -36,30 +35,38 @@ img {
 
 
 h1 {
-  font-size: 40px;
+  font-size: 70px;
 }
 
-
+h2 {
+  font-size: 30px;
+}
 
 .header-title-the {
-  margin-top:50px;
+  margin-top:30px;
+
+
 }
 
 .header-title-austineer {
   margin-bottom:0 auto;
   padding-bottom: auto;
+
+
 }
 
 
 nav {
   margin: auto;
+  margin-right: 0px;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: baseline;
   /* grid-template-rows: 2fr 2fr; */
   padding-bottom: 5px;
   vertical-align: middle;
-  font-family: sans-serif;
   line-height: 1.15;
   /* border: 2px solid red; */
 }
@@ -76,7 +83,6 @@ li {
 }
 
 .wrapper-header-bottom-nav {
-  /* border: 2px solid green; */
   display: flex:
   justify-content: center;
 }
@@ -91,10 +97,11 @@ li {
   background: blue;
   color: white;
   border: 0px;
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 5px 30px 5px 30px;
   margin: auto;
   margin-left: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
