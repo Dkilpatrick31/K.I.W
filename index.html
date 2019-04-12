@@ -5,7 +5,7 @@
     <title>Keep It Weird</title>
     <!-- Link to CSS -->
     <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Manuale|Roboto+Condensed|Playfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Manuale|Roboto+Condensed|Playfair+Display+SC|Vollkorn" rel="stylesheet">
     <!-- Adobe Carlson Font  -->
     <link rel="stylesheet" href="https://use.typekit.net/ifj2okm.css">
   </head>
@@ -20,46 +20,43 @@
         <div class="header-top-wrapper">
 
           <!-- Stupid Ad here. -->
-          <div class="header-ad">
+          <div class="wrapper-header-ad">
             <a href="#">
-              <img src="/img/Kevin_Woody.jpg" alt="Picture of an Ad.">
+              <img src="/img/Kevin_Woody.jpg" class="header-ad" alt="Picture of an Ad.">
             </a>
           </div>
 
           <!-- Center Title -->
           <div class="header-wrapper">
             <div class="header-title">
-              <div class="header-title-the">
-                <h2>The</h2>
-              </div>
-              <div class="header-title-austineer">
-                <h1>Austineer</h1>
-              </div>
+                <h2 class="header-title-the">The</h2>
+                <h1 class="header-title-austineer">Austineer</h1>
               <!-- <h2>K.I.W</h2> -->
               <!-- or <h3>Keep.It.Weird</h3> -->
             </div>
           </div>
 
           <!-- Header Main Nav Bar -->
-          <div class="header-nav">
+          <!-- <div class="header-nav">
             <nav>
               <li>Newsletter</li>
               <li>Sign in</li>
-              <li>Shop</li>
+              <li>Shop</li> -->
 
               <!-- Search Function icon -->
-              <link rel="shortcut icon" name=search href=".ico">
+              <!-- <link rel="shortcut icon" name=search href=".ico">
             </nav>
+          </div> -->
+
+          <div class="subscribe-header-mobile">
+            <button type="button" class="subscribe-button" name="header-subscribe">Subscribe</button>
           </div>
 
 
         </div>
 
-        <!-- Horizontal Rule Line -->
-        <hr>
-
         <!-- Middle Header Nav-Bar -->
-        <div class="wrapper-header-bottom-nav">
+        <!-- <div class="wrapper-header-bottom-nav">
           <div class="header-bottom-nav">
             <nav>
               <li><a href="#">News</a></li>
@@ -72,16 +69,13 @@
               <li><a href="#">Video</a></li>
               <li><a href="#">Podcasts</a></li>
               <li><a href="#">Archive</a></li>
-              <li><a href="#">Goings On</a></li>
+              <li><a href="#">Goings On</a></li> -->
 
             <!-- Subscribe Button -->
-            <button type="button" class="subscribe-button" name="subscribe">Subscribe</button>
+            <!-- <button type="button" class="subscribe-button" name="subscribe">Subscribe</button>
           </div>
         </div>
-
-
-        <!-- Horizontal Rule Line -->
-        <hr>
+ -->
 
       </header>
 
@@ -98,9 +92,6 @@
             </div>
           </section>
 
-          <!-- Horizontal Rule Line -->
-          <hr>
-
           <!-- CSS 1.0 : Done -->
           <!-- Radio Section -->
           <section class="wrapper">
@@ -108,12 +99,9 @@
               <a href="https://www.acl-radio.com/">
                 <img src="/img/ACL-Logo.png" class="icon" alt="Icon of Radio Station">
               </a>
-              <p>Check out Austin's Number One destionation for Music!</p>
+              <p class="radio-p">Check out Austin's Number One destionation for Music!</p>
             </div>
           </section>
-
-          <!-- Horizontal Rule Line -->
-          <hr>
 
           <div class="wrapper">
             <!-- CSS 1.0 : Not Done -->
@@ -133,9 +121,6 @@
                 <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
-
               <!-- 2nd Article from the Top Stories Section -->
               <article class="card">
                 <a href="http://www.circuitoftheamericas.com/motogp">
@@ -148,8 +133,6 @@
                 <span class="purchase"><a href="http://www.circuitoftheamericas.com/motogp/tickets">Purchase Tickets here!</a></span>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
               <!-- 3rd Article from the Top Stories Section -->
               <article class="card">
                 <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
@@ -162,8 +145,6 @@
                 <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
               <!-- 4th Article from the Top Stories Section -->
               <article class="card">
                 <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
@@ -183,90 +164,74 @@
             <!-- CSS 1.0 : Not Done -->
             <!-- News & Culture -->
             <aside class="news-culture">
-              <hr>
               <div class="title-card">
                 <h3>News & Culture</h3>
               </div>
-              <hr>
 
               <!-- 01 Article from the "News & Culture" Section -->
-              <article class="news-culture-01">
-                <h2>Article Title</h2>
-                <img src="Article-01-img.jpg" alt="Picture Description of Article">
-                <span>Article Author</span>
+              <article class="card-aside">
+                <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
+                  <img src="/img/GameofThronesPreview.jpg" class="img-aside" alt="Picture Description of Article">
+                </a>
+                  <h2 class="title-article">Buzzfeed CEO Jonah Peretti on the Evolving Landscape of Digital Media at SXSW 2019</h2>
+                </a>
+                <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
               </article>
-
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 01 Article from the "News & Culture" Section -->
-              <article class="news-culture-02">
-                <h2>Article Title</h2>
-                <img src="Article-01-img.jpg" alt="Picture Description of Article">
-                <span>Article Author</span>
+              <article class="card-aside">
+                <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
+                  <img src="/img/GameofThronesPreview.jpg" class="img-aside" alt="Picture Description of Article">
+                </a>
+                  <h2 class="title-article">Buzzfeed CEO Jonah Peretti on the Evolving Landscape of Digital Media at SXSW 2019</h2>
+                </a>
+                <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
               </article>
-
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 03 Article from the "News & Culture" Section -->
-              <article class="news-culture-03">
-                <h2>Article Title</h2>
-                <img src="Article-01-img.jpg" alt="Picture Description of Article">
-                <span>Article Author</span>
+              <article class="card-aside">
+                <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
+                  <img src="/img/GameofThronesPreview.jpg" class="img-aside" alt="Picture Description of Article">
+                </a>
+                  <h2 class="title-article">Buzzfeed CEO Jonah Peretti on the Evolving Landscape of Digital Media at SXSW 2019</h2>
+                </a>
+                <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
               </article>
-
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 04 Article from the "News & Culture" Section -->
-              <article class="news-culture-04">
-                <h2>Article Title</h2>
-                <img src="Article-01-img.jpg" alt="Picture Description of Article">
-                <span>Article Author</span>
+              <article class="card-aside">
+                <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
+                  <img src="/img/GameofThronesPreview.jpg" class="img-aside" alt="Picture Description of Article">
+                </a>
+                  <h2 class="title-article">Buzzfeed CEO Jonah Peretti on the Evolving Landscape of Digital Media at SXSW 2019</h2>
+                </a>
+                <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
             </aside>
           </div>
 
-          <!-- Horizontal Rule Line -->
-          <hr>
-
           <!-- CSS 1.0 : Not Done -->
           <!-- Download App Section -->
-          <section class="download-app ">
-            <img src="App_Icon.jpg" alt="Icon of App">
-            <p>All magazine issues since 2008 are now available in The Austin Journal, K.I.W app.</p>
-
             <!-- add >> icon after the "Download today link." -->
-            <a href="#">Download today!</a>
+          <section class="wrapper">
+            <div class="radio">
+              <a href="https://www.acl-radio.com/">
+                <img src="/img/ACL-Logo.png" class="icon" alt="Icon of Radio Station">
+              </a>
+              <p class="radio-p">All magazine issues since 2008 are now available in The Austin Journal, K.I.W app.</p>
+              <a href="#">Download today!</a>
+            </div>
           </section>
+
 
           <!-- CSS 1.0 : Not Done -->
           <section class="spotlight">
 
-            <hr>
             <div class="title-card">
               <h3>Spotlight</h3>
             </div>
-            <hr>
-
-            <article class="card">
-              <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
-                <img src="/img/Jonah-Peretti-Photo-by-Melodi-Ramirez-640x360.jpg" alt="Picture Description of Article">
-              </a>
-              <span class="category">Our Columnists</span>
-              <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
-                <h2 class="card-title">Buzzfeed CEO Jonah Peretti on the Evolving Landscape of Digital Media at SXSW 2019</h2>
-              </a>
-              <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
-            </article>
-
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <article class="card">
               <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
@@ -280,8 +245,17 @@
             </article>
 
 
-            <!-- Horizontal Rule Line -->
-            <hr>
+            <article class="card">
+              <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
+                <img src="/img/Jonah-Peretti-Photo-by-Melodi-Ramirez-640x360.jpg" alt="Picture Description of Article">
+              </a>
+              <span class="category">Our Columnists</span>
+              <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
+                <h2 class="card-title">Buzzfeed CEO Jonah Peretti on the Evolving Landscape of Digital Media at SXSW 2019</h2>
+              </a>
+              <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
+            </article>
+
 
             <article class="card">
               <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
@@ -295,9 +269,6 @@
             </article>
 
 
-            <!-- Horizontal Rule Line -->
-            <hr>
-
             <article class="card">
               <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
                 <img src="/img/Jonah-Peretti-Photo-by-Melodi-Ramirez-640x360.jpg" alt="Picture Description of Article">
@@ -310,9 +281,6 @@
             </article>
 
 
-            <!-- Horizontal Rule Line -->
-            <hr>
-
             <article class="card">
               <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
                 <img src="/img/Jonah-Peretti-Photo-by-Melodi-Ramirez-640x360.jpg" alt="Picture Description of Article">
@@ -324,9 +292,6 @@
               <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hayden Bagot</a></span>
             </article>
 
-
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <article class="card">
               <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
@@ -362,11 +327,11 @@
           <!-- The Latest Section-->
           <section class="the-latest">
 
-            <hr>
+
             <div class="title-card">
               <h3>The Latest</h3>
             </div>
-            <hr>
+
 
             <!-- 1st Article from "The Latest" Section -->
             <article class="the-latest-01">
@@ -426,13 +391,11 @@
             <!-- More Stories Button -->
             <button type="button" name="More-Stores">More Stories</button>
 
-            <hr>
+
 
           <!-- End of The Latest Section -->
           </section>
 
-          <!-- Horizontal Rule Line -->
-          <hr>
 
           <!-- CSS 1.0 : Not Done -->
           <!-- Newsletter -->
@@ -442,8 +405,6 @@
             <button type="button" name="newsletter-button">Sign up for our newsletter now.</button>
           </section>
 
-          <!-- Horizontal Rule Line -->
-          <hr>
 
           <!-- CSS 1.0 : Not Done -->
           <!-- Contributors and Most Popular -->
@@ -457,8 +418,6 @@
                 <h2>Contributors</h2>
               </div>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 01 Article from the "Contributors" Section -->
               <article class="contributors-01">
@@ -511,8 +470,6 @@
                 <h2>Most Popular</h2>
               </div>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 01 Article from the "Most Popular" Section -->
               <article class="most-popular-01">
@@ -562,16 +519,12 @@
           <!-- Video -->
           <section class="video">
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- Video -->
             <div class="video-title">
               <h2>Video</h2>
             </div>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- Main Video Section -->
 
@@ -579,7 +532,7 @@
             <section class="main-video video">
 
               <article class="card">
-                <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+                <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" width="260" height="315" frameborder="0" allowfullscreen></iframe>
                 <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
                   <h2 class="card-title">Video Title</h2>
                 </a>
@@ -611,8 +564,6 @@
 
             </aside>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
           <!-- End of Videos Section -->
           </section>
@@ -626,8 +577,6 @@
               <h2>Daily Cartoon</h2>
             </div>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- The Cartoon Itself -->
             <section class="wraper-daily-cartoon">
@@ -653,8 +602,6 @@
               </div>
             </aside>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- End of the "Daily Cartoon" Section -->
           </section>
@@ -674,8 +621,6 @@
 
             <button type="button" name="more-photo-booth-button">More Photo Booth</button>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- End of the Photo Booth Section -->
           </section>
@@ -687,8 +632,6 @@
             <!-- The Magazine Title -->
             <h2>The Magazine</h2>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- Sub-categories for The Magazine section -->
             <ul>
@@ -741,11 +684,11 @@
           <section class="from-this-weeks-issue">
 
             <!-- From This Week's Issue -->
-            <hr>
+
             <div class="title-card">
               <h3>From this Week's Issue</h3>
             </div>
-            <hr>
+
 
             <!-- Sub-section for the "From this weekends Issue" -->
             <section class="wrapper-from-this-weeks-issue">
@@ -758,8 +701,6 @@
                 <span>By Authors Name</span>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 02 Article from "From this Week's Issue" -->
               <article class="from-this-weeks-issue-02">
@@ -769,8 +710,6 @@
                 <span>By Authors Name</span>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 03 Article from "From this Week's Issue" -->
               <article class="from-this-weeks-issue-03">
@@ -780,8 +719,6 @@
                 <span>By Authors Name</span>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 04 Article from "From this Week's Issue" -->
               <article class="from-this-weeks-issue-04">
@@ -791,8 +728,6 @@
                 <span>By Authors Name</span>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- A stupid Ad. -->
               <aside class="wrapper-ad-05">
@@ -804,8 +739,6 @@
               </aside>
             </section>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- End of the "From this week's Issue" Section -->
           </section>
@@ -819,8 +752,6 @@
               <h2>Our Columnists</h2>
             </div>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <section class="wrapper-our-columnists">
 
@@ -832,8 +763,6 @@
                 <p>Short description of the article.</p>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 02 Article from "Our Columnists" subsection -->
               <article class="our-columnists-02">
@@ -843,9 +772,6 @@
                 <p>Short description of the article.</p>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
-
               <!-- 03 Article from "Our Columnists" subsection -->
               <article class="our-columnists-03">
                 <img src="" alt="Cartoon Illustration of the Columnists">
@@ -854,8 +780,6 @@
                 <p>Short description of the article.</p>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 04 Article from "Our Columnists" subsection -->
               <article class="our-columnists-04">
@@ -865,8 +789,6 @@
                 <p>Short description of the article.</p>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 05 Article from "Our Columnists" subsection -->
               <article class="our-columnists-05">
@@ -876,8 +798,6 @@
                 <p>Short description of the article.</p>
               </article>
 
-              <!-- Horizontal Rule Line -->
-              <hr>
 
               <!-- 06 Article from "Our Columnists" subsection -->
               <article class="our-columnists-06">
@@ -890,8 +810,6 @@
               <!-- End of the Our Colmnists Subsection -->
             </section>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
           <!-- End of "Our Columnists" -->
           </section>
@@ -904,8 +822,6 @@
               <h2>Podcasts</h2>
             </div>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- Podcasts Player -->
             <section class="podcasts-player">
@@ -928,8 +844,6 @@
             <!-- More Podcasts Button -->
             <button type="button" name="more-podcasts-button">More Podcasts</button>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- End of the Podcasts Section -->
           </section>
@@ -943,8 +857,6 @@
               <h2>Our Previous Coverage</h2>
             </div>
 
-            <!-- Horizontal Rule Line -->
-            <hr>
 
             <!-- Start of the sub-section for the previous coverage. -->
             <section class="wrapper-our-previous-coverage">
