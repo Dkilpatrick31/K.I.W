@@ -23,7 +23,6 @@ h3 {
   font-size: 20px;
   font-family: adobe-caslon-pro, serif;
   font-weight: 50;
-  font-style: italic;
 }
 
 p {
@@ -246,6 +245,16 @@ span {
   text-align: left;
   border-top: 3px solid #e5e5e5;
   padding: 15px 0;
+}
+
+.title-card-center {
+  font-family: 'PT Serif', serif;
+  /* font-size: 1px; */
+  /* line-height: 6px; */
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 10px 10px;
+  border-bottom: 1px solid black;
 }
 
 .title-article {
