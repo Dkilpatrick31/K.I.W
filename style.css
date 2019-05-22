@@ -114,6 +114,11 @@ span {
   height: 600px;
 }
 
+.previous-coverage-icon {
+  width: 130px;
+  height: 98px;
+}
+
 /* ========== Buttons ========== */
 
 .button-more {
@@ -121,6 +126,8 @@ span {
   background: none;
   width: 100%;
   margin-bottom: 30px;
+  border: solid 1px #e5e5e5;
+  color: #adadad;
 }
 
 .more {
@@ -438,6 +445,23 @@ iframe {
 }
 
 
+/* ========== Previous Coverage Section ========== */
+
+.wrapper-our-previous-coverage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.previous-coverage {
+  /* padding: 20px 30px; */
+  margin: 0 35px;
+}
+
+.previous-coverage-title {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
 /* ========== End of Main ========== */
 /* ========== Start of Footer ========== */
