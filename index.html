@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Keep It Weird</title>
     <!-- Link to CSS -->
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Manuale|Roboto+Condensed|Playfair+Display+SC|Vollkorn|PT+Serif|Josefin+Sans" rel="stylesheet">
@@ -429,7 +430,7 @@
                 <img src="/img/newsletter.jpg" class="icon" alt="Newsletter Icon">
               </a>
               <link rel="shortcut icon" href=".ico">
-              <span class="newsletter">The best of The Austin Journal, in your in-box.<a href="#" class="newsletter-sign-up">Sign up for our newsletters now.</span>
+              <span class="newsletter">The best of The Austin Journal, in your in-box.<a href="#" class="newsletter-sign-up">Sign up for our newsletters now.</a></span>
             </div>
           </section>
 
@@ -515,12 +516,13 @@
               </div>
 
               <!-- 01 Article from the "Most Popular" Section -->
-              <article class="most-popular-01">
-                <img src="" alt="">
-                <h4>Article's Author Name</h4>
-                <h2>Article Title</h2>
+              <article class="card">
+
+                <span class="most-popular-number">1.</span>
+                <span class="category">Letter from Montreal</span>
+                <h2>Joe Beef and the Excesses of Restaurant Culture</h2>
+                <h4>By Hannah Goldfield</h4>
                 <!-- add >> icon after the "All Work link." -->
-                <a href="#">All Work</a>
               </article>
 
               <!-- 02 Article from the "Most Popular" Section -->
@@ -529,7 +531,6 @@
                 <h4>Article's Author Name</h4>
                 <h2>Article Title</h2>
                 <!-- add >> icon after the "All Work link." -->
-                <a href="#">All Work</a>
               </article>
 
               <!-- 03 Article from the "Most Popular" Section -->
@@ -538,7 +539,6 @@
                 <h4>Article's Author Name</h4>
                 <h2>Article Title</h2>
                 <!-- add >> icon after the "All Work link." -->
-                <a href="#">All Work</a>
               </article>
 
               <!-- 04 Article from the "Most Popular" Section -->
@@ -547,7 +547,6 @@
                 <h4>Article's Author Name</h4>
                 <h2>Article Title</h2>
                 <!-- add >> icon after the "All Work link." -->
-                <a href="#">All Work</a>
               </article>
 
             <!-- Our 30 Best Brewerys Button -->
@@ -619,7 +618,7 @@
 
 
             <!-- The Cartoon Itself -->
-            <section class="wraper-daily-cartoon">
+            <section class="wrapper-daily-cartoon">
               <img src="/img/DC050219-daily-cartoon.jpg" alt="Picture of Daily Cartoon">
               <!-- The Favicons below the Cartoon -->
               <div class="favicons">
@@ -639,7 +638,7 @@
             <aside class=" wrapper-ad-04">
               <div class="ad-04">
                 <a href="#">
-                  <img src="" alt="Picture of a Stupid Ad.">
+                  <img src="/img/ad-image.png" class="ad-image" alt="Picture of a Stupid Ad.">
                 </a>
               </div>
             </aside>
@@ -653,16 +652,21 @@
           <section class="wrapper">
 
             <!-- Photo Booth Article -->
-            <article class="photo-booth-01">
-              <img src="" alt="Picture of Photo Booth Article">
-              <span>Article Category/Subject Here</span>
-              <h2>Article Title</h2>
-              <p>Short Description of the Article.</p>
-              <span>By. Authors Name</span>
+
+            <!-- Daily Cartoon Title -->
+            <div class="title-card-center">
+              <h2>Photo Booth</h2>
+            </div>
+
+            <article class="card">
+              <img src="/img/bird-photo-booth-img.jpg" class="photo-booth-img" alt="Picture of Photo Booth Article">
+              <span class="category">Photo Booth</span>
+              <h2 class="card-title">To Be a Bird: Stephen Gill’s “The Pillar”</h2>
+              <p>The photographs in Gill’s book encounter birds on their own terms.</p>
+              <span class="author">By Karl Ove Knausgaard</span>
             </article>
 
-            <button type="button" name="more-photo-booth-button">More Photo Booth</button>
-
+            <button type="button" class="button-more" name="more-photo-booth-button">More Photo Booth</button>
 
             <!-- End of the Photo Booth Section -->
           </section>
@@ -672,10 +676,23 @@
           <section class="wrapper">
 
             <!-- The Magazine Title -->
-            <h2>The Magazine</h2>
+            <div class="title-card-center">
+              <h2>The Magazine</h2>
+            </div>
 
+            <div class="the-magazine-img">
+              <img src="/img/magazine.jpg" alt="Picture of the Magazine">
+            </div>
+
+            <div class="the-magazine-date">
+              <span class="">May 13, 2019 Issue</span>
+            </div>
+
+            <button type="button" class="button-more" name="more-photo-booth-button">Table of Contents</button>
 
             <!-- Sub-categories for The Magazine section -->
+
+            <!-- this needs to be updated once the mobile version is done. look at screen sizes.
             <ul>
               <li><a href="#">Goings on About Town</a></li>
               <li><a href="#">The Talk of the Town</a></li>
@@ -684,33 +701,33 @@
               <li><a href="#">Fiction</a></li>
               <li><a href="#">The Critics</a></li>
               <li><a href="#">Poems</a></li>
-              <!-- Make Blue -->
+
               <li><a href="#">Buy the Cover</a></li>
             </ul>
 
+            this needs to be updated once the mobile version is done. look at screen sizes.
             <section>
-              <!-- 01 Article from "The Magazine" Section -->
               <article class="the-magazine-01">
                 <img src="" alt="Picture of an older Issue">
                 <h3>Date of Issue</h3>
                 <button type="button" name="table-of-contents-button">Table of Contents</button>
               </article>
 
-              <!-- 02 Article from "The Magazine" Section -->
+              this needs to be updated once the mobile version is done. look at screen sizes.
               <article class="the-magazine-02">
                 <img src="" alt="Picture of an older Issue">
                 <h3>Date of Issue</h3>
                 <button type="button" name="table-of-contents-button">Table of Contents</button>
               </article>
 
-              <!-- 03 Article from "The Magazine" Section -->
+              this needs to be updated once the mobile version is done. look at screen sizes.
               <article class="the-magazine-03">
                 <img src="" alt="Picture of an older Issue">
                 <h3>Date of Issue</h3>
                 <button type="button" name="table-of-contents-button">Table of Contents</button>
               </article>
 
-              <!-- 04 Article from "The Magazine" Section -->
+              this needs to be updated once the mobile version is done. look at screen sizes.
               <article class="the-magazine-04">
                 <img src="" alt="Picture of an older Issue">
                 <h3>Date of Issue</h3>
@@ -718,8 +735,10 @@
               </article>
             </section>
 
-            <!-- End of The Magazine Section -->
-          </section>
+
+          </section> -->
+
+          <!-- End of The Magazine Section -->
 
           <!-- CSS 1.0 : Not Done -->
           <!-- From this Week's Issue -->
@@ -732,42 +751,51 @@
             </div>
 
 
+            <!-- <article class="card">
+              <span class="category">Our Columnists</span>
+              <a href="https://www.sxsw.com/news/2019/buzzfeed-ceo-jonah-peretti-at-sxsw-2019-video/">
+                <h2 class="card-title">Buzzfeed CEO Jonah Peretti on the Evolving Landscape of Digital Media at SXSW 2019</h2>
+              </a>
+              <span class="author">By <a href="https://www.sxsw.com/author/hbagot/">Hannah Goldfield</a></span>
+            </article>
+
+ -->
             <!-- Sub-section for the "From this weekends Issue" -->
             <section class="wrapper-from-this-weeks-issue">
 
               <!-- 01 Article from "From this Week's Issue" -->
               <article class="from-this-weeks-issue-01">
-                <img src="" alt="Picture of an article">
-                <span>Article Category/Subject Here</span>
-                <h2>Article Title</h2>
-                <span>By Authors Name</span>
+                <img src="/img/Tables_for_two.jpg" alt="Picture of an article">
+                <span class="category">Tables for Two</span>
+                <h2>Van Da’s Tour of Vietnamese Delicacies</h2>
+                <span class="author">By Hannah Goldfield</span>
               </article>
 
 
               <!-- 02 Article from "From this Week's Issue" -->
               <article class="from-this-weeks-issue-02">
-                <img src="" alt="Picture of an article">
-                <span>Article Category/Subject Here</span>
-                <h2>Article Title</h2>
-                <span>By Authors Name</span>
+                <img src="/img/band.jpg" alt="Picture of an article">
+                <span class="category">Tables for Two</span>
+                <h2>Van Da’s Tour of Vietnamese Delicacies</h2>
+                <span class="author">By Hannah Goldfield</span>
               </article>
 
 
               <!-- 03 Article from "From this Week's Issue" -->
               <article class="from-this-weeks-issue-03">
-                <img src="" alt="Picture of an article">
-                <span>Article Category/Subject Here</span>
-                <h2>Article Title</h2>
-                <span>By Authors Name</span>
+                <img src="/img/donkey.jpg" alt="Picture of an article">
+                <span class="category">Tables for Two</span>
+                <h2>Van Da’s Tour of Vietnamese Delicacies</h2>
+                <span class="author">By Hannah Goldfield</span>
               </article>
 
 
               <!-- 04 Article from "From this Week's Issue" -->
               <article class="from-this-weeks-issue-04">
-                <img src="" alt="Picture of an article">
-                <span>Article Category/Subject Here</span>
-                <h2>Article Title</h2>
-                <span>By Authors Name</span>
+                <img src="/img/houses.jpg" alt="Picture of an article">
+                <span class="category">Tables for Two</span>
+                <h2>Van Da’s Tour of Vietnamese Delicacies</h2>
+                <span class="author">By Hannah Goldfield</span>
               </article>
 
 
@@ -775,7 +803,7 @@
               <aside class="wrapper-ad-05">
                 <div class="ad-05">
                   <a href="#">
-                    <img src="" alt="Picture of a stupid ad.">
+                    <img src="/img/AustinPromo_Banner_300x600.jpg" class="ad-05" alt="Picture of a stupid ad.">
                   </a>
                 </div>
               </aside>
