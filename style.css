@@ -466,6 +466,14 @@ iframe {
 /* ========== End of Main ========== */
 /* ========== Start of Footer ========== */
 
+.black-bar {
+  background-color: black;
+  color: white;
+  display: flex;
+
+}
+
+
 footer {
   /* background: black; */
   color: white;
