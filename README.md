@@ -1,6 +1,8 @@
 # K.I.W
 The Austin Journal. A mockup of "The New Yorker" website
 
+This project is built with the intention of showcasing the full development cycle of a website. Utilizing HTML, CSS, Bootstrap4 and Javascript. I will be refractored in React.
+
 Critiquing Class Names for Sections and Articles
 - Wrapper - Done | global-wrapper |
   - Header - Done | header-top-wrapper |
